@@ -76,11 +76,13 @@ nav ul {
 nav ul li {
     list-style-type: none;
 }
-.indice {
+.indice :{
     text-decoration: none;
     color: brown;
-    font-size: 20px;
+    font-size: 20px;  
 }
+
+.indice :hover {color: blue;}
 
 /*MAIN*/
 .contenido {
