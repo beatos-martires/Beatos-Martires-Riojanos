@@ -94,3 +94,49 @@
     grid-area: enlaces;
     display: flex;
     flex-direction: row;}
+
+//MAIN PAGINA: LUGARES DE MARTIRIO
+
+.contenedor-lugares{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "entrada entrada"
+        "imagen titulo"
+        "imagen leyenda"
+        "imagen-1 titulo-1"
+        "imagen-1 leyenda-1"
+        "imagen-2 titulo-2"
+        "imagen-2 leyenda-2";
+    margin: 20px 70px;}
+
+.card-entrada{
+    grid-area: entrada;}
+
+.titulo-lugar{
+    grid-area: titulo;}
+
+.leyenda-lugar{
+    grid-area: leyenda;}
+
+.imagen-lugar{
+    grid-area: imagen;}
+
+.titulo-lugar-1{
+    grid-area: titulo-1;}
+
+.leyenda-lugar-1{
+    grid-area: leyenda-1;}
+
+.imagen-lugar-1{
+    grid-area: imagen-1;}
+
+.titulo-lugar-2{
+    grid-area: titulo-2;}
+
+.leyenda-lugar-2{
+    grid-area: leyenda-2;}
+
+.imagen-lugar-2{
+    grid-area: imagen-2;}
