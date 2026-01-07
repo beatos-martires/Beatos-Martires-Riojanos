@@ -72,6 +72,54 @@ horizontal*/
   margin: 0 25px;
 }
 
+.contenedor-biografia {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  grid-template-areas: "carrusel" "destacado1" "separador1" "martires" "destacado2" "separador2" "enlaces";
+  margin: 20px 70px;
+}
+
+.carrusel2 {
+  grid-area: carrusel;
+}
+
+.destacado {
+  grid-area: destacado1;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.separador-biografia {
+  grid-area: separador1;
+  background-color: #584199;
+  height: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.biografia-martires {
+  grid-area: martires;
+}
+
+.destacado2 {
+  grid-area: destacado2;
+}
+
+.separador2 {
+  grid-area: separador2;
+  background-color: #584199;
+  height: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.enlaces {
+  grid-area: enlaces;
+  display: flex;
+  flex-direction: row;
+}
+
 /*FOOTER HOME*/
 .footer {
   display: flex;
@@ -83,5 +131,15 @@ horizontal*/
   align-items: center;
   justify-items: center;
 }
+
+.biografia-martires {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card-title {
+  text-align: center;
+} /*Titulo de las tragetas*/
 
 /*# sourceMappingURL=style.css.map */
