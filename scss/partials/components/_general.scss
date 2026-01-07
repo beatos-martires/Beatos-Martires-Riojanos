@@ -1,0 +1,46 @@
+/*MAIN HOME*/
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas:
+        "imagen oracion";
+    margin: 20px 70px;
+    justify-content: space-between;}
+
+.imagen{
+    grid-area: imagen;
+    background-color: none;
+    display: flex;
+    align-items: center; /*alinea eje 
+    vertical*/
+    justify-items: center; /*alinea eje 
+    horizontal*/
+    justify-content: center;
+    width: 50rem;
+    height: 30rem;}
+
+.oracion{
+    grid-area: oracion;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*alinea eje 
+    vertical*/
+    justify-items: center; /*alinea eje 
+    horizontal*/
+    justify-content: center;
+    width: 25.6rem;
+    height: 30rem;}
+
+    .canonizacion{
+        font-size: 20px;
+        padding: 0 0 15px 0;
+        text-decoration:underline;
+        text-align: center;}
+
+    .meditacion{
+        font-size: 15px;
+        text-align: center;
+        margin: 0 25px;}
