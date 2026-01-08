@@ -1,0 +1,7 @@
+//BOTON DESCARGA
+
+@mixin flex ($align, $justify, $margin){
+    display: flex;
+    align-content: $align;
+    justify-content: $justify;
+    margin-bottom: $margin}

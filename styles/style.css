@@ -178,6 +178,91 @@ horizontal*/
   margin-left: 20px;
 }
 
+.conteiner-descarga {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+  grid-template-areas: "banner-1 descarga banner-2" "banner-1 catequesis banner-2" "banner-1 educacion banner-2" "banner-1 espiritual banner-2" "banner-1 historia banner-2" "banner-1 pastoral banner-2" "banner-1 oracion banner-2" "banner-1 contenido banner-2";
+  margin: 20px 70px;
+}
+
+.descarga-general {
+  grid-area: descarga;
+  text-align: center;
+}
+
+.material-1 {
+  grid-area: catequesis;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.material-2 {
+  grid-area: educacion;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.material-3 {
+  grid-area: espiritual;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.material-4 {
+  grid-area: historia;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.material-5 {
+  grid-area: pastoral;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.banner-1 {
+  grid-area: banner-1;
+}
+
+.banner-2 {
+  grid-area: banner-2;
+}
+
+.ora-descarga {
+  grid-area: oracion;
+}
+
+.ora-1 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+.cont-descarga {
+  grid-area: contenido;
+}
+
+.cont-0 {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.formulario {
+  margin: 0 70px;
+}
+
 /*FOOTER HOME*/
 .footer {
   display: flex;

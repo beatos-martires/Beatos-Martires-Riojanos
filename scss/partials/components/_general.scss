@@ -1,3 +1,5 @@
+@use "../utilities/mixins";
+
 /*MAIN HOME*/
 
 .contenedor{
@@ -166,22 +168,41 @@
         "banner-1 contenido banner-2";
     margin: 20px 70px;}
 
-.descarga-general{grid-area: descarga;}
+.descarga-general{
+    grid-area: descarga;
+    text-align: center;}
 
-.material-1{grid-area: catequesis;}
+.material-1{
+    grid-area: catequesis;
+    @include mixins.flex (center, center, 18px)}
 
-.material-2{grid-area: educacion}
+.material-2{
+    grid-area: educacion;
+    @include mixins.flex (center, center, 18px)}
 
-.material-3{grid-area: espiritual;}
+.material-3{
+    grid-area: espiritual;
+    @include mixins.flex (center, center, 18px)}
 
-.material-4{grid-area: historia;}
+.material-4{
+    grid-area: historia;
+    @include mixins.flex (center, center, 18px)}
 
-.material-5{grid-area: pastoral;}
+.material-5{
+    grid-area: pastoral;
+    @include mixins.flex (center, center, 18px)}
 
 .banner-1{grid-area: banner-1;}
 
 .banner-2{grid-area: banner-2;}
 
 .ora-descarga{grid-area: oracion;}
+        .ora-1{font-size: 20px; text-align: center; margin-top: 20px; margin-bottom: -10px;}
 
 .cont-descarga{grid-area: contenido;}
+        .cont-0{text-align: center; margin: 0 20px;}
+
+//PAGINA FORMULARIO
+
+.formulario{
+    margin: 0 70px;}
