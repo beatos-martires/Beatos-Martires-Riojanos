@@ -3,9 +3,25 @@
 //TARGETA DE LOS MÁRTIRES//
 
 .biografia-martires{
-    display: flex;
-    flex-direction:row;
-    justify-content: space-evenly;}
+    display: grid;
+    grid-row-start: auto;
+  gap: 24px;                    
+  justify-content: center;      
+  align-items: stretch;
+  padding: 20px 0;
+}
 
-        .card-title{text-align: center;} /*Titulo de las tragetas*/
-        .card-text{text-align: justify;}
+.biografia-martires .card{
+  width: 18rem;              
+}
+
+/* Títulos y texto */
+.biografia-martires .card-title{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(153, 77, 77);
+}
+
+.biografia-martires .card-text{
+  text-align: center;
+}

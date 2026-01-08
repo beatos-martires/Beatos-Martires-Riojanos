@@ -57,10 +57,7 @@
         "carrusel"
         "destacado1"
         "separador1"
-        "martires"
-        "destacado2"
-        "separador2"
-        "enlaces";
+        "martires";
     margin: 20px 70px;}
 
 .carrusel2{
@@ -82,20 +79,6 @@
     grid-area: martires;}
 
 
-.destacado2{
-    grid-area: destacado2;}
-
-.separador2{
-    grid-area: separador2;
-    background-color: #584199;
-    height: 5px;
-    width: 100%;
-    margin-bottom: 20px;}
-
-.enlaces{
-    grid-area: enlaces;
-    display: flex;
-    flex-direction: row;}
 
 //MAIN PAGINA: LUGARES DE MARTIRIO
 
@@ -151,7 +134,7 @@
     text-align: justify;
     margin-left: 20px;}
 
-//MAIN PAGINA: DESCARGA
+//MAIN PAGINA: MATERIAL DE CONSULTA
 
 .conteiner-descarga{
     display: grid;

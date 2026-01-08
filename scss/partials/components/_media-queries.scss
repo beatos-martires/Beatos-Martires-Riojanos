@@ -1,0 +1,99 @@
+//PAGINA HOME
+@media (max-width: 375px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;     
+    gap: 8px;
+  }
+
+  .imagen {
+    width: 234px; height: auto;
+  }
+
+  .imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .oracion {
+    width: 234px;           
+    text-align: center;
+  }
+
+  .oracion .canonizacion {
+    background-color: antiquewhite;
+    font-size: 15px;
+  }
+
+  .oracion .meditacion {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar .container-fluid {
+    width: 100%;
+  }
+}
+
+//PAGINA LUGARES DE PEREGRINACION
+
+@media (max-width: 375px) {
+.contenedor-lugares{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "titulo"
+        "leyenda"
+        "imagen"
+        "titulo-1"
+        "leyenda-1"
+        "imagen-1"
+        "titulo-2"
+        "leyenda-2"
+        "imagen-2";}
+    }
+    
+//PAGINA MATERIAL DE CONSULTA
+@media (max-width: 375px) {
+.conteiner-descarga{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-template-areas:
+        "descarga"
+        "catequesis"
+        "educacion"
+        "espiritual"
+        "historia"
+        "pastoral"
+        "oracion"
+        "contenido";}}
+
+
+//FOOTER
+@media (max-width: 375px) {
+  .footer {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    justify-content: center;
+    background-color: rgb(157, 77, 77);
+    margin: 20px 70px;
+    padding: 16px 12px;
+    gap: 12px;
+  }
+
+  .footer-p {
+    text-align: center;
+    margin: 0;
+    font-size: 10px;}
+
+  .footer img {
+    display: block;
+    width: auto;
+    height: 32px;}}
+

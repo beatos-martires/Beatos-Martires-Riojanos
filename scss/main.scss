@@ -15,4 +15,7 @@
 @use "./partials/components/cards";
 
 //HORVER
-@use "./partials/utilities/horver"
+@use "./partials/utilities/horver";
+
+//MEDIA QUERIES
+@use "./partials/components/media-queries";

@@ -76,7 +76,7 @@ horizontal*/
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto auto auto auto;
-  grid-template-areas: "carrusel" "destacado1" "separador1" "martires" "destacado2" "separador2" "enlaces";
+  grid-template-areas: "carrusel" "destacado1" "separador1" "martires";
   margin: 20px 70px;
 }
 
@@ -100,24 +100,6 @@ horizontal*/
 
 .biografia-martires {
   grid-area: martires;
-}
-
-.destacado2 {
-  grid-area: destacado2;
-}
-
-.separador2 {
-  grid-area: separador2;
-  background-color: #584199;
-  height: 5px;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.enlaces {
-  grid-area: enlaces;
-  display: flex;
-  flex-direction: row;
 }
 
 .contenedor-lugares {
@@ -275,21 +257,108 @@ horizontal*/
   justify-items: center;
 }
 
-.biografia-martires {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+.footer-p {
+  color: white;
 }
 
-.card-title {
+.biografia-martires {
+  display: grid;
+  grid-row-start: auto;
+  gap: 24px;
+  justify-content: center;
+  align-items: stretch;
+  padding: 20px 0;
+}
+
+.biografia-martires .card {
+  width: 18rem;
+}
+
+/* Títulos y texto */
+.biografia-martires .card-title {
   text-align: center;
-} /*Titulo de las tragetas*/
-.card-text {
-  text-align: justify;
+  font-size: 25px;
+  color: rgb(153, 77, 77);
+}
+
+.biografia-martires .card-text {
+  text-align: center;
 }
 
 .btn.btn-primary:hover {
   color: orange;
+}
+
+@media (max-width: 375px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .imagen {
+    width: 234px;
+    height: auto;
+  }
+  .imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .oracion {
+    width: 234px;
+    text-align: center;
+  }
+  .oracion .canonizacion {
+    background-color: antiquewhite;
+    font-size: 15px;
+  }
+  .oracion .meditacion {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar .container-fluid {
+    width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  .contenedor-lugares {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "titulo" "leyenda" "imagen" "titulo-1" "leyenda-1" "imagen-1" "titulo-2" "leyenda-2" "imagen-2";
+  }
+}
+@media (max-width: 375px) {
+  .conteiner-descarga {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-template-areas: "descarga" "catequesis" "educacion" "espiritual" "historia" "pastoral" "oracion" "contenido";
+  }
+}
+@media (max-width: 375px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(157, 77, 77);
+    margin: 20px 70px;
+    padding: 16px 12px;
+    gap: 12px;
+  }
+  .footer-p {
+    text-align: center;
+    margin: 0;
+    font-size: 10px;
+  }
+  .footer img {
+    display: block;
+    width: auto;
+    height: 32px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
