@@ -288,4 +288,8 @@ horizontal*/
   text-align: justify;
 }
 
+.btn.btn-primary:hover {
+  color: orange;
+}
+
 /*# sourceMappingURL=style.css.map */
