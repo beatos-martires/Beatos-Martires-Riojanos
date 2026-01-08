@@ -148,3 +148,40 @@
 .descrip-martirio{ //Descripción
     text-align: justify;
     margin-left: 20px;}
+
+//MAIN PAGINA: DESCARGA
+
+.conteiner-descarga{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-template-areas:
+        "banner-1 descarga banner-2"
+        "banner-1 catequesis banner-2"
+        "banner-1 educacion banner-2"
+        "banner-1 espiritual banner-2"
+        "banner-1 historia banner-2"
+        "banner-1 pastoral banner-2"
+        "banner-1 oracion banner-2"
+        "banner-1 contenido banner-2";
+    margin: 20px 70px;}
+
+.descarga-general{grid-area: descarga;}
+
+.material-1{grid-area: catequesis;}
+
+.material-2{grid-area: educacion}
+
+.material-3{grid-area: espiritual;}
+
+.material-4{grid-area: historia;}
+
+.material-5{grid-area: pastoral;}
+
+.banner-1{grid-area: banner-1;}
+
+.banner-2{grid-area: banner-2;}
+
+.ora-descarga{grid-area: oracion;}
+
+.cont-descarga{grid-area: contenido;}
