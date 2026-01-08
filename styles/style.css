@@ -130,6 +130,7 @@ horizontal*/
 
 .card-entrada {
   grid-area: entrada;
+  margin-bottom: 50px;
 }
 
 .titulo-lugar {
@@ -166,6 +167,15 @@ horizontal*/
 
 .imagen-lugar-2 {
   grid-area: imagen-2;
+}
+
+.lugar-martirio {
+  margin-left: 20px;
+}
+
+.descrip-martirio {
+  text-align: justify;
+  margin-left: 20px;
 }
 
 /*FOOTER HOME*/

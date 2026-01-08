@@ -112,7 +112,8 @@
     margin: 20px 70px;}
 
 .card-entrada{
-    grid-area: entrada;}
+    grid-area: entrada;
+    margin-bottom: 50px;}
 
 .titulo-lugar{
     grid-area: titulo;}
@@ -140,3 +141,10 @@
 
 .imagen-lugar-2{
     grid-area: imagen-2;}
+
+.lugar-martirio{ //titulo de los lugares
+    margin-left: 20px;}
+
+.descrip-martirio{ //Descripción
+    text-align: justify;
+    margin-left: 20px;}

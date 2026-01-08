@@ -3,35 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Style/style.css">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+
     <title>Document</title>
+
+    <!--ESTILO-->
+    <link rel="stylesheet" href="../styles/style.css">
+
 </head>
 <body>
-    <header>
-       <img src="./Assets/Logo Beatos martires.png" alt="">
+    <Header>       
+        <nav class="navbar navbar-expand-lg">
+             <div class="container-fluid">
+                 <a class="navbar-brand" href="#">
+                    <img src="../assets/Logo Beatos martires.png" alt="">
+                 </a>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                 </button>
 
-       <nav>
-         <ul>
-           <li>
-             <a href="../index.html">Home</a>
-           </li>
-           <li>
-             <a href="../pages/sobrenosotros.html">Sobre Nosotros</a>
-           </li>
-           <li>
-             <a href="../pages/Lugaresdemartirio.html">Lugares de Martirio</a>
-           </li>
-           <li>
-             <a href="#">Material de consulta</a>
-           </li>
-           <li>
-             <a href="./pages/contacto.html">Contacto</a>
-           </li>
-         </ul>
-       </nav>
-    </header>
+                 <div class="collapse navbar-collapse" id="navbarNav">
+                   <ul class="navbar-nav">
+                     <li class="nav-item">
+                         <a class="nav-link" href="../index.html">Inicio</a>
+                     </li>
+
+                     <li class="nav-item">
+                         <a class="nav-link" href="../pages/sobrenosotros.html">Biografía</a>
+                     </li>
+                     
+                     <li class="nav-item">
+                         <a class="nav-link" href="../pages/Lugaresdemartirio.html">Lugares de peregrinación</a>
+                     </li>
+
+                     <li class="nav-item">
+                         <a class="nav-link" href="#">Material de consulta</a>
+                     </li>
+                     
+                     <li class="nav-item">
+                         <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                     </li>
+                   </ul>
+                 </div>
+             </div>
+        </nav>
+    </Header>
 
     <main>
+      <section class="material-1">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Material catequético</button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"    aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">Catequético</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+             <div class="offcanvas-body">
+                <p>Este material ofrece recursos sencillos y dinámicos para transmitir la vida y el testimonio de los Beatos Mártires Riojanos en clave de fe. Está pensado para la catequesis de niños, adolescentes y jóvenes, ayudando a descubrir cómo el Evangelio se hace vida concreta en la historia.</p>
+                <a href="#" class="btn btn-primary">DESCARGA</a>
+            </div>
+        </div>
+      </section>
+
+      <section class="material-2">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Material educativo</button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"    aria-labelledby="offcanvasRightLabel">
+           <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Educativo</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+           </div>
+            <div class="offcanvas-body">
+                <p>El material educativo presenta contenidos adaptados al ámbito escolar y formativo, integrando historia, valores y compromiso social. Permite trabajar la figura de los mártires desde una perspectiva pedagógica, promoviendo la reflexión crítica, la memoria y la construcción de una cultura de paz.</p>
+                <a href="#" class="btn btn-primary">DESCARGA</a>
+           </div>
+       </div>
+     </section>
+
+      <section class="material-3">
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Material espiritual</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"    aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Espiritual</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+           </div>
+            <div class="offcanvas-body">
+               <p>Este material invita a la oración y al encuentro personal con Dios a partir del testimonio de los Beatos Mártires. Incluye textos para la meditación, celebraciones y momentos de silencio, ayudando a fortalecer la fe y la esperanza desde una espiritualidad encarnada.</p>
+               <a href="#" class="btn btn-primary">DESCARGA</a>
+           </div>
+       </div>
+     </section>
+
+      <section class="material-4">
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Material histórico</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"    aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Histórico</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+           </div>
+            <div class="offcanvas-body">
+               <p>El material histórico ofrece una aproximación contextualizada a la vida, el tiempo y las circunstancias en las que vivieron y dieron su vida los Beatos Mártires Riojanos. Aporta datos, relatos y claves para comprender su testimonio dentro de la historia argentina y latinoamericana.</p>
+               <a href="#" class="btn btn-primary">DESCARGA</a>
+            </div>
+          </div>
+     </section>
+
+      <section class="material-5">
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Material pastoral</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"    aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Pastoral</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+           </div>
+            <div class="offcanvas-body">
+               <p>Este material está pensado para animar la vida comunitaria y la acción pastoral. Brinda propuestas para encuentros, celebraciones y actividades misioneras, ayudando a actualizar el mensaje de los mártires como inspiración para una Iglesia cercana, comprometida y al servicio del pueblo.</p>
+               <a href="#" class="btn btn-primary">DESCARGA</a>
+           </div>
+          </div>
+     </section>
+
         <h1 class="descarga-1">Para descargar:</h1>
         <ul>
             <li>Catequetico</li>
@@ -47,12 +139,33 @@
     </main>
 
     <footer>
-        <img src="./Assets/Iconos de redes/Icono Facebook.png" alt="">
-        <img src="./Assets/Iconos de redes/Icono Instagram.png" alt="">
+        <div class="footer">
+            <figure class="facebbok">
+                <a href="https://www.facebook.com/diocesisde.larioja/?locale=es_LA" target="_blank" class="link-imagen">
+                    <img src="../Assets/Iconos de redes/icono facebbok.png" alt="" class="red1" style="width: 60px; height: 70px;">
+                </a>
+            </figure>
 
-        <p class="footer-p">© 2025 | Todos los derechos reservados, Lucas Nazar</p>
+            <figure class="instagram">
+                <a href="https://www.instagram.com/diocesisdelarioja/?hl=es" target="_blank" class="link-imagen">
+                    <img src="../Assets/Iconos de redes/Icono instagram.png" alt="" class="red2" style="width: 60px; height: 70px;">
+                </a>
+            </figure>
 
-        <img src="./Assets/Logo Beatos martires.png" alt="">
+            <section class="propiedad">
+                <p class="footer-p">© 2025 | Todos los derechos reservados, Lucas Nazar</p>
+            </section>
+
+            <figure class="logo-martires-01">
+                <img src="../assets/Logo Beatos martires.png" alt="">
+            </figure>
+        </div>
     </footer>
+    
+    <!--BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+crossorigin="anonymous"></script>
+
 </body>
 </html>
